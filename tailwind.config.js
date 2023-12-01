@@ -6,10 +6,17 @@ export default {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./app.vue",
+    "./index.vue",
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        roboto : ["Roboto"],
+        inter: ["Inter"],
+        raleway: ["Raleway"]
+      }
+    },
   },
   plugins: [],
 }
