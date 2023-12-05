@@ -10,14 +10,13 @@
         {{ props.description }}
       </p>
     </div>
-
-    <div class="mt-8">
+    <div class="my-8">
       <NuxtLink :to="props.memberUrl" :class="props.color" class="  p-4  hover:opacity-110
          transition duration-150 ease-in-out ">See Member</NuxtLink>
     </div>
-    <div class="w-full p-2">
-      <img class="rounded-md" :src="$props.groupImg" :alt="$props.groupName" />
-    </div>
+    <!-- <div class="">
+      <img class="w-34" :src="$props.groupImg" :alt="$props.groupName" />
+    </div> -->
   </div>
 </template>
 
